@@ -130,11 +130,13 @@ body {
         margin-left: 10px !important;
         float: left !important;
     }
+
     .header .book {
         margin-left: 10px !important;
         float: none !important;
-        
+
     }
+
     .header .acti {
         float: left !important;
         margin-left: 10px !important;
@@ -144,6 +146,7 @@ body {
     .header .log2 {
         margin-left: 0px !important;
     }
+
     .header .log {
         padding-right: 0px !important;
     }
@@ -323,8 +326,55 @@ body {
 
 @media screen and (max-width:850px) {
 
+
+    section {
+        display: flex !important;
+        width: 80%;
+    }
+
+    #template {
+        background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .6)), url(tr1.jpg);
+        background-size: cover;
+        background-position: left;
+        flex-direction: column;
+        color: white;
+    }
+
+    #template .bm {
+        opacity: 0.8 !important;
+        font-size: 13px !important;
+    }
+
+    #template h1 {
+        font-size: 35px !important;
+        font-weight: 800 !important;
+    }
+
+    #template .cel {
+        font-size: 13px !important;
+    }
+
+    #template .span {
+        padding: 3px 0px !important;
+        opacity: 0.9 !important;
+        font-size: 10px !important;
+    }
+
+    #template .left {
+        border: 1px solid white !important;
+        padding: 3px 3px !important;
+        border-radius: 50% !important;
+    }
+
+    #template .right {
+        border: 1px solid white !important;
+        padding: 3px 3px !important;
+        border-radius: 50% !important;
+    }
+
     .treebo {
-        margin-top: 50px
+        display: none;
+        padding: 0;
     }
 
 
@@ -411,6 +461,7 @@ body {
         color: black !important;
         opacity: 0.9;
     }
+
     .sub .subsearch {
         color: white;
         background-color: black;
@@ -699,4 +750,10 @@ body {
     .body2 {
         background-color: white;
     }
+}
+
+
+
+section {
+    display: none;
 }
